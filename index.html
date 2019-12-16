@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+     <title>Tarjetes codeartist</title>
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        img{
+            width: 100%;
+           
+        }
+        body{
+            height: 100%;
+            background: linear-gradient(35deg,blue,purple);
+        }
+        .contenidor{
+            display: flex;
+            padding: 2em;
+            justify-content: center;
+        }
+        
+        header{
+            align-items: baseline;
+            display: flex;
+            justify-content: space-between;
+            color: purple;
+            padding: 0.5 1em;
+            margin: 0.5em 1em;
+            padding: 0 0 0.2em 0;
+            border-bottom: 1px solid purple;
+        }
+        .disenyador{
+            width: 300px;
+            margin: 1em;
+            background: rgba(245, 245, 245, 0.8);
+            display: flex;
+            flex-direction: column;
+            border-radius: 20px;
+        }
+        
+        .cont_img{
+          height: 300px;
+            border-radius: 20px;
+            background: #4c015c;
+            
+        }
+        .cont_img img{
+            height: 100%;
+            mix-blend-mode: lighten;
+            border-radius: 20px 20px 0px 0px;
+            overflow: hidden;
+            object-fit: cover;
+            object-position: center center;
+            filter: grayscale(100%)
+
+            
+        }
+        
+        .cont_txt{
+            margin:  1em 1em 0.5em 1em;
+            color: purple;
+            text-align: justify;
+            hyphens: auto;
+            font-size: 0.9em;
+            line-height: 1.4em;
+            
+        }
+        
+        .peu_disenyador{
+            background: purple;
+            color: white;
+            font-style: italic;
+            font-size: 0.9em;
+            padding: 1em 1em 0.5em 1em;
+            border-radius: 0 0 20px 20px;
+        }
+        h3{
+            font-weight: 600;
+            font-style: normal;
+            
+        }
+        
+        h4{
+            font-weight: 500;
+            font-style: italic;
+        }
+        
+        @media (max-width: 600px){
+            body{
+                font-size: 14px;
+            }
+            .contenidor{
+                flex-direction: column;
+            }
+            .disenyador{
+                width: 30em;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="contenidor">
+        <div class=" disenyador">
+           <div class="cont_img">
+            <img src="Img/WhatsApp%20Image%202019-11-11%20at%2009.57.06.jpeg">
+        </div> 
+        <header>
+            <h3>Paula Scher</h3>
+            <h4>1948</h4>
+        </header>
+              <div class="cont_txt">
+            <p> Estudió Bellas Artes en Pensilvania, en la escuela de arte Tyler de Elkins Park. Allí fue alumna de Seymour Chwast, con quien se casó en 1973. Se inició en el mundo profesional encargándose de la maquetación de la sección infantil de la editorial Random House.Su siguiente contrato vino dado por la compañía CBS Records, donde fue contratada para trabajar en su departamento de publicidad y promociones, y de ahí pasó a trabajar en Atlantic Records, ejerciendo como directora de arte. </p>
+            </div>
+                <div class="peu_disenyador">
+            <p> Es una diseñadora gráfica y artista estadounidense.También fue la primera directora de la diseñadora Pentagram, a la que se unió en 1991.</p>
+            </div>
+        </div>
+        
+        
+         <div class=" disenyador">
+           <div class="cont_img">
+            <img src="Img/WhatsApp%20Image%202019-11-11%20at%2009.22.33(1).jpeg">
+        </div> 
+        <header>
+            <h3>David Carson</h3>
+            <h4>1955</h4>
+        </header>
+              <div class="cont_txt">
+            <p> Se convirtió en diseñador gráfico a los 26 años, estableciéndose dentro de la bulliciosa comunidad de surf del sur de California. La cultura experimental a la que estuvo expuesto a través del surf y el skateboard le brindó la libertad de jugar con los dictados modernistas institucionalizados del diseño, de los que no estaba al tanto. Comenzó su carrera trabajando para varias revistas, incluyendo Transworld Skateboarding, Beach Culture y, quizás la más famosa, Ray Gun.</p>
+            </div>
+                <div class="peu_disenyador">
+            <p>Es un diseñador gráfico, director de arte y surfista estadounidense. Es mejor conocido por su innovador diseño de revista y el uso de la tipografía experimental.</p>
+            </div>
+        </div>
+        
+        
+    </div>
+</body>
+</html>
